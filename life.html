@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Han Zheng</title>
+</head>
+<body>
+    <div class="skip"><a href="#main-content">Skip to Main Content</a></div>
+    <header>
+        <a class="logo__link" href="index.html">Han Zheng</a>
+        <nav>
+            <ul>
+                <li><a href = "index.html" >Home</a></li>
+                <li><a href = "resume.html">Resume</a></li>
+                <li><a href = "project.html">Projects</a></li>
+                <li class="active"><a href = "life.html">Life</a></li>               
+            </ul>
+        </nav>
+    </header>
+
+    <main id = "main-content">
+        <h1>Photo Gallery</h1>
+            <button type="button" class="mixbutton" data-filter="all">All</button>
+            <button type="button" class="mixbutton" data-filter=".MI">Michigan</button>
+            <button type="button" class="mixbutton" data-filter=".NY">New York</button>
+            <button type="button" class="mixbutton" data-filter=".Bos">Boston</button>
+            <div class="infodiv">
+                <div class = "mix MI all">
+                    <div class="pic">
+                        <a href="images/Mi_s.jpeg" target="blank" data-lightbox="photo gallery" data-title="Michigan Stadium" data-alt="me in the Michigan Stadium">
+                            <img src="images/Mi_s.jpeg" width = "300" alt="me in the Michigan Stadium">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix NY all">
+                    <div class="pic">
+                        <a href="images/NY.jpeg" target="blank" data-lightbox="photo gallery" data-title="Brooklyn" data-alt="me travel to NY">
+                            <img src="images/NY.jpeg" width = "300" alt="me travel to NY">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix Bos all">
+                    <div class="pic">
+                        <a href="images/Hav.jpeg" target="blank" data-lightbox="photo gallery" data-title="Harvard" data-alt="me travel to Boston">
+                            <img src="images/Hav.jpeg" width = "300" alt="me travel to Boston">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix MI all">
+                    <div class="pic">
+                        <a href="images/MI_1.jpeg" target="blank" data-lightbox="photo gallery" data-title="Michigan Stadium front" data-alt="the Michigan Stadium">
+                            <img src="images/MI_1.jpeg" width = "300" alt="Michigan Stadium">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix NY all">
+                    <div class="pic">
+                        <a href="images/NY_1.jpeg" target="blank" data-lightbox="photo gallery" data-title="Brooklyn bridge" data-alt="me travel to NY">
+                            <img src="images/NY_1.jpeg" width = "300" alt="Brooklyn bridge">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix Bos all">
+                    <div class="pic">
+                        <a href="images/bos_1.jpeg" target="blank" data-lightbox="photo gallery" data-title="Boston night" data-alt="me travel to Boston">
+                            <img src="images/bos_1.jpeg" width = "300" alt="Boston night">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix MI all">
+                    <div class="pic">
+                        <a href="images/MI_2.jpeg" target="blank" data-lightbox="photo gallery" data-title="main street in Ann Arbor" data-alt="main street in Ann Arbor">
+                            <img src="images/MI_2.jpeg" width = "300" alt="main street in Ann Arbor">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix NY all">
+                    <div class="pic">
+                        <a href="images/NY_2.jpeg" target="blank" data-lightbox="photo gallery" data-title="Statue of Liberty" data-alt="Statue of Liberty">
+                            <img src="images/NY_2.jpeg" width = "300" alt="Statue of Liberty">
+                        </a>
+                    </div>
+                </div>
+                <div class = "mix Bos all">
+                    <div class="pic">
+                        <a href="images/bos_2.jpeg" target="blank" data-lightbox="photo gallery" data-title="Boston beach" data-alt="Boston beach">
+                            <img src="images/bos_2.jpeg" width = "300" alt="Boston beach">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p class="thanks">
+          Thanks for visiting! <i></i>
+        </p>
+        <a href="#main-content">Back to Top</a>
+    </footer>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="https://kit.fontawesome.com/0f891d3f87.js" crossorigin="anonymous"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script>
+        var containerEl = document.querySelector('.infodiv');
+        var mixer = mixitup(containerEl);
+    </script>
+</body>
+</html>
