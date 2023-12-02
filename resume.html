@@ -16,7 +16,7 @@
             <ul>
                 <li><a href = "index.html" >Home</a></li>
                 <li class="active"><a href = "resume.html">Resume</a></li>
-                <li><a href = "project.html">Projects</a></li>
+                <!-- <li><a href = "project.html">Projects</a></li> -->
                 <li><a href = "life.html">Life</a></li>               
             </ul>
         </nav>
@@ -75,16 +75,34 @@
                 <p>Languages: Mandarin (Native), English (Advanced)</p>
             </div>
             <div>
-                <h2>Projects</h2>
-                <div>
-                <h3>A Two-staged 16-bit RISC Processor Integrated with a Fully Customized Near-Memory Computing SRAM, Umich</h3>
-                <h3>An R10K-style, Two-way superscalar, RISC-V Processor, UMich</h3>
-                <h3>An Automatic Gain Control (AGC) Amplifier for Ultra Wideband Applications, UMich</h3>
+                <h2>A Two-staged 16-bit RISC Processor Integrated with a Fully Customized Near-Memory Computing SRAM, Umich</h2>
+                <ol>
+                    <li>Finished schematics, layout design and verification for a 16-bit 2-staged pipelined RISC processor including a Register file, a logarithmic
+                        shifter, and ALU with Carry-Select Adder</li>
+                    <li>Using Innovus for APR and physical design of the RISC Processor, complete chip-level integration of subblock and pad ring</li>
+                    <li>Designed an in/near-memory compute SRAM with Bit-Serial Logic/Arithmetic Operations for in/near-memory Computing</li>
+                </ol>
                 </div>
-            </div>
+                <div>
+                <h2>An R10K-style, Two-way superscalar, RISC-V Processor, UMich</h2>
+                <ol>
+                    <li>Designed and synthesized a MIPS R10K style renaming, Out-of-Order microprocessor supporting RISC-V ISA</li>
+                    <li>Implemented 2-way superscalar with branch prediction, Load and Store Queue and Victim Caches</li>
+                    <li>Validated and integrated components such as I-cache, D-cache, Reservation Station, Reorder Buffer, Physical Register File, Free List</li>
+                    <li>Completed the project with System Verilog, synthesized under 20ns clock period with average CPI=3.4</li>
+                </ol>
+                </div>
+                <div>
+                <h2>An Automatic Gain Control (AGC) Amplifier for Ultra Wideband Applications, UMich</h2>
+                <ol>
+                    <li>Designed an AGC system consisting of Variable Gain Amplifier (VGA), Peak Detector, Error Amplifier, Loop Filter and Bandgap Voltage Reference using Cadence Virtuoso in CMOS IBM 130nm process with 2.84mW power consumption</li>
+                    <li>Achieved the VGA performance with 26.5dB gain range and 460MHZ bandwidth, the 2-stage operational amplifier with 53dB gain, 102.52MHz GBW and 60.325° phase margin under miller compensation</li>
+                    <li>Analyzed and calculated transistor sizing by specification and opeartion mode, compressed the AGC system overall gain to be stable with the closed-loop feedback to the control voltage of VGA</li>
+                </ol>
+                </div>
         </div>
         <div>
-            <a href="/file/Han_Zheng_Resume.pdf" download="Han_Zheng_Resume.pdf">Download Resume</a>
+            <a href="file/Han_Zheng_Resume.pdf" download="Han_Zheng_Resume.pdf">Download Resume</a>
         </div>
     </main>
     <footer>
